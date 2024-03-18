@@ -1,0 +1,7 @@
+header {
+    grid-template-columns: auto;
+}
+
+.about {
+    grid-template-columns: auto;
+}

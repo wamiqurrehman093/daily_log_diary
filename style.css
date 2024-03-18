@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
 }
 
 h1, h2, h3, p, a {
@@ -10,13 +11,15 @@ h1, h2, h3, p, a {
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 32px;
+    padding: 16px 0px;
+    gap: 16px;
 }
 
 .about {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 32px;
+    padding: 16px 0px;
+    gap: 16px;
 }
 
 .section {
@@ -43,14 +46,14 @@ header {
     border-top: 1px solid black;
     display: grid;
     gap: 16px;
-    padding: 16px;
+    padding: 16px 0px;
     justify-items: center;
 }
 
 .links {
     display: grid;
     gap: 16px;
-    padding: 16px;
+    padding: 16px 0px;
     justify-items: center;
 }
 
